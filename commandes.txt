@@ -1,0 +1,128 @@
+Ligne de commandes 
+
+ 700  mkdir tp-git-avance
+  701  git init
+  702  cd tp-git-avance/
+  703  git init
+  704  git remote add origin git@github.com:alicirelli/tp-git-avance.git
+  705  git branch -M main
+  706  git add .
+  707  touch feature1.txt
+  708  code feature1.txt 
+  709  history
+  710  cd BOOTCAMP\ HB/
+  711  cd Cours/
+  712  cd Environnement\ de\ développement/
+  713  cd tp-git-avance/
+  714  git remote add origin git@github.com:alicirelli/tp-git-avance.git
+  715  remote -v
+  716  remote remove origin
+  717  git remote remove origin
+  718  git remote add origin git@github.com:alicirelli/tp-git-avance.git
+  719  git branch -M main
+  720  git add .
+  721  git checkout main
+  722  git checkout
+  723  git branch
+  724  git init
+  725  git branch
+  726  git remote add origin git@github.com:alicirelli/tp-git-avance.git
+  727  git pull
+  728  git branch --set-upstream-to=origin/main main
+  729  git checkout -b main
+  730  git branch --set-upstream-to=origin/main main
+  731  git branch
+  732  git pull
+  733  git branch --set-upstream-to=origin/ main
+  734  git branch -M main
+  735  git push -u origin main
+  736  git status
+  737  git commit -m "first commit"
+  738  git push
+  739  git push --set-upstream origin main
+  740  git checkout main
+  741  git rm feature1.txt 
+  742  git rm -f feature.txt
+  743  git status
+  744  git commit -m "supprimer fichier feature.txt"
+  745  git push origin main
+  746  git chekcout -b feature1
+  747  git checkout -b feature1
+  748  git add .
+  749  git commit -m "ajout feature1.txt"
+  750  git add feature1.txt
+  751  touch feature1.txt
+  752  code feature1.txt 
+  753  git add feature1.txt 
+  754  git commit -m "Ajout feature1.txt"
+  755  git checkout main
+  756  git checkout -b feature2.txt
+  757  touch feature2.txt
+  758  code feature2.txt 
+  759  git add feature2.txt 
+  760  git commit -m "Ajout feature2.txt"
+  761  git checkout main
+  762  git pull origin main
+  763  git merge feature1
+  764  git merge feature2
+  765  git branch
+  766  ls
+  767  git checkout -b feature2
+  768  git checkout feature2.txt 
+  769  git rm feature2.txt 
+  770  git commit -m "supprimer feature2.txt"
+  771  git checkout feature2
+  772  git add feature2.txt
+  773  touch feature2.txt
+  774  code feature2.txt 
+  775  git add feature2.txt 
+  776  git commit -m "Ajout feature2.txt"
+  777  git checkout main
+  778  git checkout feature2
+  779  git push origin feature2
+  780  git checkout feature1
+  781  git push origin feature1
+  782  git checkout main
+  783  git branch -d feature2.txt
+  784  git branch -D feature2.txt
+  785  git push origin --delete feature2.txt
+  786  git merge feature2
+  787  git checkout -b feature3
+  788  touch feature3.txt
+  789  code feature3.txt 
+  790  git add feature3.txt 
+  791  git commit -m "Ajout feature3.txt"
+  792  git push origin feature3
+  793  git checkout main
+  794  git push
+  795  touch main.txt
+  796  code main.txt 
+  797  git add main.txt 
+  798  git commit -m "Ajout main.txt"
+  799  git push
+  800  git checkout feature3
+  801  git rebase main
+  802  git checkout main
+  803  touch extra.txt
+  804  git add extra.txt 
+  805  git commit -m "Ajout extra.txt"
+  806  git push
+  807  git checkout feature3
+  808  git log
+  809  git checkout main
+  810  git log
+  811  git checkout feature3
+  812  git cherry-pick 74a231e9d9e6436c7a9ebef7e48017feafe2f3da
+  813  git checkout main
+  814  touch mistake.txt
+  815  git commit -m "Ajout mistake.txt"
+  816  git add mistake.txt 
+  817  git commit -m "Ajout mistake.txt"
+  818  git push
+  819  git branch
+  820  git log
+  821  git revert f8a3bb6cdfac136e80bb91e57ce04cd0548ba403
+  822  git checkout main
+  823  git push
+  824  history
+
