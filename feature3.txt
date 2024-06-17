@@ -1,0 +1,3 @@
+Langage de programmation : JavaScript
+Framework : React.js
+Version minimale de Node.js requise : 12.0.0
